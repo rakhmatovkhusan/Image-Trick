@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(https://wallpaperbat.com/img/834687-80s-vibes.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.image{
+    width: 500px;
+    height: 500px;
+    background:url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/photoshop-face-before.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    cursor: pointer;
+}
+
+.image::after{
+    content: '';
+    width: 0%;
+    height: 500px;
+    right: 0;
+    position: absolute;
+    transition: 3s;
+}
+
+.image:hover::after{
+    width: 500px;
+    left: 0;
+    background-color: rgba(200, 243, 10, 0.084);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
