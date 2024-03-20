@@ -30,7 +30,7 @@ body{
     height: 500px;
     right: 0;
     position: absolute;
-    transition: 3s;
+    transition: 10s;
 }
 
 .image:hover::after{
