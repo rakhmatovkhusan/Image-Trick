@@ -15,8 +15,8 @@ body{
 }
 
 .image{
-    width: 500px;
-    height: 500px;
+    width: 700px;
+    height: 700px;
     background:url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/photoshop-face-before.jpg);
     background-repeat: no-repeat;
     background-size: cover;
